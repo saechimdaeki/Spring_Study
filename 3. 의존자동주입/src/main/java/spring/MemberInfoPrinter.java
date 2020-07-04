@@ -17,6 +17,7 @@ public class MemberInfoPrinter {
 		printer.print(member);
 		System.out.println();
 	}
+
 	@Autowired
 	public void setMemberDao(MemberDao memberDao) {
 		this.memDao = memberDao;
