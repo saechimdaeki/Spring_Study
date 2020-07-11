@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="11. 메시지 커맨드 객체 검증" />
+        <module name="11.MVC2 메시지 커맨드 객체 검증" />
       </profile>
     </annotationProcessing>
   </component>
