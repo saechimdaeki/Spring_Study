@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="10.MVC1" />
+        <module name="10. MVC1 요청매핑,커맨드 객체, 라디아렉트, 폼태그 , 모델" />
       </profile>
     </annotationProcessing>
   </component>
