@@ -18,7 +18,7 @@ public class MemberConfig {
 	public DataSource dataSource() {
 		DataSource ds = new DataSource();
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://localhost/spring5fs?characterEncoding=utf8");
+		ds.setUrl("jdbc:mysql://localhost/springjunseong?characterEncoding=utf8");
 		ds.setUsername("root");
 		ds.setPassword("940215");
 		ds.setInitialSize(2);
