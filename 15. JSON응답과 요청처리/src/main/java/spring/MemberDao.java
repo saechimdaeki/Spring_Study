@@ -51,12 +51,10 @@ public class MemberDao {
 			@Override
 			public PreparedStatement createPreparedStatement(Connection con)
 					throws SQLException {
-				// 파라미터로 전달받은 Connection을 이용해서 PreparedStatement 생성
 				PreparedStatement pstmt = con.prepareStatement(
 						"insert into MEMBER (EMAIL, PASSWORD, NAME, REGDATE) " +
 								"values (?, ?, ?, ?)",
 						new String[] { "ID" });
-				// 인덱스 파라미터 값 설정
 				pstmt.setString(1, member.getEmail());
 				pstmt.setString(2, member.getPassword());
 				pstmt.setString(3, member.getName());
